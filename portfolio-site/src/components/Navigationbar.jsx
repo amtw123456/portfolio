@@ -8,9 +8,30 @@ function Navigationbar() {
                     <a href="#" className="flex items-center">
                         <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Rd Dolor</span>
                     </a>
-                    <div className="border flex  items-center lg:order-2">
+                    <div className="flex  items-center lg:order-2">
                         <div className="hidden mt-2 mr-4 sm:inline-block">
-                            <span></span>
+                            <button type="button" class="hs-dark-mode-active:hidden block hs-dark-mode font-medium text-gray-800 rounded-full hover:bg-gray-200 focus:outline-none focus:bg-gray-200 dark:text-neutral-200 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" data-hs-theme-click-value="dark">
+                                <span class="group inline-flex shrink-0 justify-center items-center size-9">
+                                    <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                                    </svg>
+                                </span>
+                            </button>
+                            <button type="button" class="hs-dark-mode-active:block hidden hs-dark-mode font-medium text-gray-800 rounded-full hover:bg-gray-200 focus:outline-none focus:bg-gray-200 dark:text-neutral-200 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" data-hs-theme-click-value="light">
+                                <span class="group inline-flex shrink-0 justify-center items-center size-9">
+                                    <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="4"></circle>
+                                        <path d="M12 2v2"></path>
+                                        <path d="M12 20v2"></path>
+                                        <path d="m4.93 4.93 1.41 1.41"></path>
+                                        <path d="m17.66 17.66 1.41 1.41"></path>
+                                        <path d="M2 12h2"></path>
+                                        <path d="M20 12h2"></path>
+                                        <path d="m6.34 17.66-1.41 1.41"></path>
+                                        <path d="m19.07 4.93-1.41 1.41"></path>
+                                    </svg>
+                                </span>
+                            </button>
                         </div>
 
                         {/* <a className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Download</a> */}
@@ -57,6 +78,7 @@ function Navigationbar() {
             </nav >
 
             <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+
         </>
     )
 }
