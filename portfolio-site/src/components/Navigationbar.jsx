@@ -1,15 +1,17 @@
 
+import { Link } from 'react-scroll';
+
 
 function Navigationbar() {
     return (
         <>
             <nav className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
-                <div className="flex flex-wrap justify-between max-w-screen-xl px-4 mx-auto">
-                    <a href="#" className="flex items-center border-l pl-4 dark:border-gray-700">
-                        <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white ">Rd</span>
+                <div className="flex flex-wrap justify-between max-w-screen-xl mx-auto border-l border-r">
+                    <a href="#" className="flex items-center pl-4 dark:border-gray-700">
+                        <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Rd</span>
                     </a>
-                    <div className="flex items-center lg:order-2 border-r dark:border-gray-700">
-                        <div className="hidden mr-4 sm:inline-block">
+                    <div className="flex items-center lg:order-2 dark:border-gray-700">
+                        <div className="hidden mr-2 sm:inline-block">
                             <button type="button" class="hs-dark-mode-active:hidden block hs-dark-mode font-medium text-gray-800 rounded-full hover:bg-gray-200 focus:outline-none focus:bg-gray-200 dark:text-neutral-200 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" data-hs-theme-click-value="dark">
                                 <span class="group inline-flex shrink-0 justify-center items-center size-9">
                                     <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -55,28 +57,28 @@ function Navigationbar() {
                         <ul className="flex flex-col font-medium lg:flex-row lg:space-x-24 lg:mt-0">
                             <li >
                                 <div className="border-r border-l border-t px-8 mt-5 pb-2 rounded-t-lg dark:border-gray-700">
-                                    <a href="#"
-                                        className="block mt-2 border-red-200 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                                    <Link to="about-section" smooth={true} duration={300}
+                                        className="block mt-2 border-red-200 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">About</Link>
                                 </div>
                             </li>
                             <li>
                                 <div className="border-b border-r border-l rounded-b-lg px-8 pt-2 dark:border-gray-700">
-                                    <a href="#"
-                                        className="block mb-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Experience</a>
+                                    <Link to="about-section" smooth={true} duration={300}
+                                        className="block mb-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Skills</Link>
                                 </div>
                             </li>
                             <li>
                                 <div className="border-r pb-2 border-l border-t px-8 mt-5 rounded-t-lg flex dark:border-gray-700">
-                                    <a href="#"
+                                    <Link to="about-section" smooth={true} duration={300}
                                         className="mt-2 block py-2 pl-3 pr-4 text-gray-700 border border-purple-300 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
                                         Projects
-                                    </a>
+                                    </Link>
                                 </div>
                             </li>
                             <li>
                                 <div className="border-b border-r border-l rounded-b-lg px-8 pt-2 dark:border-gray-700">
-                                    <a href="#"
-                                        className="block mb-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                                    <Link to="about-section" smooth={true} duration={300}
+                                        className="block mb-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</Link>
                                 </div>
                             </li>
                         </ul>
