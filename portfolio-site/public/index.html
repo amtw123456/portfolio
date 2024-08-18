@@ -37,6 +37,16 @@
     else if (isLightOrAuto && !html.classList.contains('light')) html.classList.add('light');
   </script>
   <script src="../node_modules/preline/dist/preline.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "zlCWaO64DPLn7rWrx",
+      });
+    })();
+  </script>
+
 </head>
 
 <body>

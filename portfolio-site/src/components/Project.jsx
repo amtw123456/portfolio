@@ -6,6 +6,7 @@ import { useEffect } from "react";
 const Project = (data) => {
     return (
         <section id="projects-section" className="flex flex-col">
+            <div className="font-bold mb-24 text-right text-5xl mr-12 text-purple-600">Projects</div>
             {data.project.projects.map((project, i) => (
                 <article className="flex flex-col items-center mt-10 md:flex-row">
                     {/* <Image
@@ -29,7 +30,7 @@ const Project = (data) => {
                                     </svg>
                                 </a>
 
-                                <div id="hs-large-modal" class="z-50hs-overlay hidden size-full fixed top-0 start-0 overflow-x-hidden overflow-y-auto pointer-events-none" role="dialog" tabindex="-1" aria-labelledby="hs-large-modal-label">
+                                <div id="hs-large-modal" class="z-50 hs-overlay hidden size-full fixed top-0 start-0 overflow-x-hidden overflow-y-auto pointer-events-none" role="dialog" tabindex="-1" aria-labelledby="hs-large-modal-label">
                                     <div class="h-60 hs-overlay-open:mt-7 hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all lg:max-w-4xl lg:w-full m-3 lg:mx-auto">
                                         <div class="flex flex-col bg-white border shadow-sm rounded-xl pointer-events-auto dark:bg-neutral-800 dark:border-neutral-700 dark:shadow-neutral-700/70">
                                             <div class="flex justify-between items-center py-3 px-4 border-b dark:border-neutral-700">
