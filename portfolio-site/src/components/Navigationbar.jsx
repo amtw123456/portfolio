@@ -1,11 +1,12 @@
 
 import { Link } from 'react-scroll';
-
+import ParticlesBg from './Particles.jsx'
 
 function Navigationbar() {
     return (
         <>
             <nav className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
+
                 <div className="flex flex-wrap justify-between max-w-screen-xl mx-auto border-l border-r">
                     <a href="#" className="flex items-center pl-4 dark:border-gray-700">
                         <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Rd</span>

@@ -4,8 +4,13 @@ import { loadSlim } from "@tsparticles/slim";
 
 const ParticlesBg = () => {
     const [init, setInit] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(false);
+
+
 
     useEffect(() => {
+        setIsDarkMode(document.documentElement.classList.contains("dark"));
+
         initParticlesEngine(async (engine) => {
             await loadSlim(engine);
         }).then(() => {
@@ -14,14 +19,14 @@ const ParticlesBg = () => {
     }, []);
 
     const particlesLoaded = (container) => {
-        console.log(container);
+        // console.log(container);
     };
 
     const options = useMemo(
         () => ({
             background: {
                 color: {
-                    value: "#ffffff", // Set the background color to white
+                    value: isDarkMode ? "#000000" : "#ffffff", // White in dark mode, black otherwise
                 },
             },
             fpsLimit: 120,
@@ -48,10 +53,10 @@ const ParticlesBg = () => {
             },
             particles: {
                 color: {
-                    value: "#0d47a1", // Set particle color to blue
+                    value: '#6a0dad', // Set particle color to blue
                 },
                 links: {
-                    color: "#0d47a1", // Set link color to blue
+                    color: '#6a0dad', // Set link color to blue
                     distance: 150,
                     enable: true,
                     opacity: 0.5,
@@ -63,7 +68,7 @@ const ParticlesBg = () => {
                     outModes: {
                         default: "bounce",
                     },
-                    random: false,
+                    random: true,
                     speed: 6,
                     straight: false,
                 },
@@ -71,7 +76,7 @@ const ParticlesBg = () => {
                     density: {
                         enable: true,
                     },
-                    value: 80,
+                    value: 240,
                 },
                 opacity: {
                     value: 0.5,
