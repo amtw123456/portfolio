@@ -8,7 +8,7 @@ const About = () => {
     const [activeTheme] = useThemeSwitcher();
 
     return (
-        <section id="about-section" className='z-29'>
+        <section id="about-section" className='z-50 mb-60'>
             <motion.section
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}

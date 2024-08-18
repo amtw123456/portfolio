@@ -1,64 +1,77 @@
-import Python from '../svg_icons/python.png';
-import Nodejs from '../svg_icons/nodejs.png';
-import Reactjs from '../svg_icons/reactjs.png';
-import Tailwind from '../svg_icons/tailwind.png';
-import CSS from '../svg_icons/css.png';
-import HTML from '../svg_icons/html.png';
-import AWS from '../svg_icons/aws.png';
-import JavaScript from '../svg_icons/javascript.png';
-import TypeScript from '../svg_icons/typescript.png';
-import Django from '../svg_icons/django.png';
-import Firebase from '../svg_icons/firebase.png';
-import Java from '../svg_icons/java.png';
-import D3 from '../svg_icons/d3.png';
-import Selenium from '../svg_icons/selenium.png';
-import Scikit from '../svg_icons/scikitlearn.png';
-import Gensim from '../svg_icons/gensim.png';
-import Express from '../svg_icons/express.png';
-import Nextjs from '../svg_icons/nextjs.png';
-import Opencv from '../svg_icons/opencv.png';
-import C from '../svg_icons/C.png';
-import Cpp from '../svg_icons/C++.png';
-import Rust from '../svg_icons/rust.png';
-import SQL from '../svg_icons/sql.png';
-import Git from '../svg_icons/git.png';
-import Mongodb from '../svg_icons/mongodb.png';
+import Python from '../image_icons/python.png';
+import Nodejs from '../image_icons/nodejs.png';
+import Reactjs from '../image_icons/reactjs.png';
+import Tailwind from '../image_icons/tailwind.png';
+import CSS from '../image_icons/css.png';
+import HTML from '../image_icons/html.png';
+import AWS from '../image_icons/aws.png';
+import JavaScript from '../image_icons/javascript.png';
+import TypeScript from '../image_icons/typescript.png';
+import Django from '../image_icons/django.png';
+import Firebase from '../image_icons/firebase.png';
+import Java from '../image_icons/java.png';
+import D3 from '../image_icons/d3.png';
+import Selenium from '../image_icons/selenium.png';
+import Scikit from '../image_icons/scikitlearn.png';
+import Gensim from '../image_icons/gensim.png';
+import Express from '../image_icons/express.png';
+import Nextjs from '../image_icons/nextjs.png';
+import Opencv from '../image_icons/opencv.png';
+import C from '../image_icons/C.png';
+import Cpp from '../image_icons/C++.png';
+import Rust from '../image_icons/rust.png';
+import SQL from '../image_icons/sql.png';
+import Git from '../image_icons/git.png';
+import Mongodb from '../image_icons/mongodb.png';
 
 
 const Skills = (data) => {
     return (
-        <div className="flex flex-row justify-between">
-            <img src={Python} alt="Python Icon" className="w-10 h-10" />
-            <img src={Nodejs} alt="Python Icon" className="w-10 h-10" />
-            <img src={Reactjs} alt="Python Icon" className="w-10 h-10" />
-            <img src={Tailwind} alt="Python Icon" className="w-10 h-10" />
-            <img src={CSS} alt="Python Icon" className="w-10 h-10" />
-            <img src={AWS} alt="Python Icon" className="w-10 h-10" />
-            <img src={JavaScript} alt="Python Icon" className="w-10 h-10" />
-            <img src={TypeScript} alt="Python Icon" className="w-10 h-10" />
-            <img src={HTML} alt="Python Icon" className="w-10 h-10" />
-            <img src={Django} alt="Python Icon" className="w-10 h-10" />
-            <img src={Firebase} alt="Python Icon" className="w-10 h-10" />
-            <img src={Java} alt="Python Icon" className="w-10 h-10" />
-            <img src={Mongodb} alt="Python Icon" className="w-10 h-10" />
-            <img src={D3} alt="Python Icon" className="w-10 h-10" />
-            <img src={Selenium} alt="Python Icon" className="w-10 h-10" />
-            <img src={Scikit} alt="Python Icon" className="w-10 h-10" />
-            <img src={Gensim} alt="Python Icon" className="w-10 h-10" />
-            <img src={Express} alt="Python Icon" className="w-10 h-10" />
-            <img src={Nextjs} alt="Python Icon" className="w-10 h-10" />
-            <img src={Opencv} alt="Python Icon" className="w-10 h-10" />
-            <img src={C} alt="Python Icon" className="w-10 h-10" />
-            <img src={Cpp} alt="Python Icon" className="w-10 h-10" />
-            <img src={Rust} alt="Python Icon" className="w-10 h-10" />
-            <img src={SQL} alt="Python Icon" className="w-10 h-10" />
-            <img src={Git} alt="Python Icon" className="w-10 h-10" />
+        <section id="skills-section" className="flex flex-col justify-between mb-60 mx-12">
+            <div>My skills</div>
+            <div className="flex flex-col my-24">
+                <div>Programming Languages</div>
+                <div className="flex flex-row justify-between">
+                    <img src={JavaScript} alt="JavaScript Icon" className="w-10 h-10" />
+                    <img src={TypeScript} alt="TypeScript Icon" className="w-10 h-10" />
+                    <img src={Python} alt="Python Icon" className="w-10 h-10" />
+                    <img src={Java} alt="Java Icon" className="w-10 h-10" />
+                    <img src={C} alt="C Icon" className="w-10 h-10" />
+                    <img src={Cpp} alt="C++ Icon" className="w-10 h-10" />
+                    <img src={Rust} alt="Rust Icon" className="w-10 h-10" />
+                    <img src={SQL} alt="SQL Icon" className="w-10 h-10" />
+                </div>
+            </div>
+            <div className="flex flex-col my-24">
+                <div>Web Frameworks</div>
+                <div className="flex flex-row justify-between">
+                    <img src={Django} alt="Django Icon" className="w-10 h-10" />
+                    <img src={Nodejs} alt="Nodejs Icon" className="w-10 h-10" />
+                    <img src={Reactjs} alt="Reactjs Icon" className="w-10 h-10" />
+                    <img src={Tailwind} alt="Tailwind Icon" className="w-10 h-10" />
+                    <img src={CSS} alt="CSS Icon" className="w-10 h-10" />
 
+                    <img src={HTML} alt="HTML Icon" className="w-10 h-10" />
+                    <img src={D3} alt="D3 Icon" className="w-10 h-10" />
+                    <img src={Express} alt="Express Icon" className="w-10 h-10" />
+                    <img src={Nextjs} alt="Nextjs Icon" className="w-10 h-10" />
+                </div>
+            </div>
 
-
-
-        </div>
-
+            <div className="flex flex-col my-24">
+                <div>Libraries and Technologies</div>
+                <div className="flex flex-row justify-between">
+                    <img src={AWS} alt="AWS Icon" className="w-10 h-10" />
+                    <img src={Firebase} alt="Python Icon" className="w-10 h-10" />
+                    <img src={Mongodb} alt="Python Icon" className="w-10 h-10" />
+                    <img src={Selenium} alt="Python Icon" className="w-10 h-10" />
+                    <img src={Scikit} alt="Python Icon" className="w-10 h-10" />
+                    <img src={Gensim} alt="Python Icon" className="w-10 h-10" />
+                    <img src={Opencv} alt="Python Icon" className="w-10 h-10" />
+                    <img src={Git} alt="Python Icon" className="w-10 h-10" />
+                </div>
+            </div>
+        </section>
 
     );
 };

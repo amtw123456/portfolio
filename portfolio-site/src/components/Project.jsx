@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const Project = (data) => {
     return (
-        <div className="flex flex-col">
+        <section id="projects-section" className="flex flex-col">
             {data.project.projects.map((project, i) => (
                 <article className="flex flex-col items-center mt-10 md:flex-row">
                     {/* <Image
@@ -158,7 +158,7 @@ const Project = (data) => {
                 </article>
             ))}
 
-        </div>
+        </section>
 
 
     );
