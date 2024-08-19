@@ -58,19 +58,19 @@ function Navigationbar() {
                             <li >
                                 <div className="border-r border-l border-t px-8 mt-5 pb-2 rounded-t-lg dark:border-gray-700">
                                     <Link to="about-section" smooth={true} duration={500}
-                                        className="block mt-2 border-red-200 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">About</Link>
+                                        className="block mt-2 border-red-200 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:cursor-pointer hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">About</Link>
                                 </div>
                             </li>
                             <li>
                                 <div className="border-b border-r border-l rounded-b-lg px-8 pt-2 dark:border-gray-700">
                                     <Link to="skills-section" smooth={true} duration={500}
-                                        className="block mb-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Skills</Link>
+                                        className="block mb-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 hover:cursor-pointer lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Skills</Link>
                                 </div>
                             </li>
                             <li>
                                 <div className="border-r pb-2 border-l border-t px-8 mt-5 rounded-t-lg flex dark:border-gray-700">
                                     <Link to="projects-section" smooth={true} duration={500}
-                                        className="mt-2 block py-2 pl-3 pr-4 text-gray-700 border border-purple-300 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                                        className="mt-2 block py-2 pl-3 pr-4 text-gray-700 border border-purple-300 hover:bg-gray-50 hover:cursor-pointer lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
                                         Projects
                                     </Link>
                                 </div>
@@ -78,7 +78,7 @@ function Navigationbar() {
                             <li>
                                 <div className="border-b border-r border-l rounded-b-lg px-8 pt-2 dark:border-gray-700">
                                     <Link to="contacts-section" smooth={true} duration={500}
-                                        className="block mb-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</Link>
+                                        className="block mb-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:cursor-pointer hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</Link>
                                 </div>
                             </li>
                         </ul>

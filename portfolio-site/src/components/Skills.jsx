@@ -29,7 +29,11 @@ const Skills = (data) => {
     return (
 
         <section id="skills-section" className="flex flex-col justify-between mb-60 ">
-            <div className="font-bold mb-24 text-5xl text-purple-700 ml-12">Skills</div>
+            <div className="font-mono flex flex-row items-center mb-24 ">
+                <div className="font-bold text-left text-5xl text-purple-600">Skills</div>
+                <hr className="ml-4 mt-6 border-t-1 border-purple-600 h-2 w-72" />
+            </div>
+
             <div className="flex flex-col mb-24 mx-24">
                 <div className='text-center mb-6'>Programming Languages</div>
                 <div className="grid grid-cols-5 gap-10">

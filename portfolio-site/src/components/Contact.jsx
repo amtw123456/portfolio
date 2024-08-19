@@ -2,6 +2,16 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
+const ColoredLine = ({ color }) => (
+    <hr
+        style={{
+            color: color,
+            backgroundColor: color,
+            height: 5
+        }}
+    />
+);
+
 
 const GmailCopy = () => {
     const gmailAddress = 'radolor@.edu.ph'
@@ -42,12 +52,16 @@ function Contact() {
 
     return (
         <div id='contacts-section' className='flex-col sm:px-[1.25rem] mt-10 flex tm:py-0 sm:py-0 sm:mt-14 tm:flex-col gap-[80px] sm:gap-[20px] tm:gap-[20px] sm:flex-col'>
+
+            <div className="flex flex-row items-center mb-24 ">
+                <div className="font-mono font-bold text-left text-5xl text-purple-600">Contact Me</div>
+                <hr className="ml-4 mt-6 border-t-1 border-purple-600 h-2 w-72" />
+            </div>
+
             <div className='flex flex-col w-[36rem] tm:pt-4 lg:pt-4 sm:pt-0 tm:w-full sm:w-full tm:mb-[20px] sm:mb-[20px]'>
-                <h1 className='tracking-wider font-[600] text-[1.4rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1rem] sm:w-[100%]'>
-                    Contact Me
-                </h1>
                 <div className='flex flex-row'>
-                    <p className='cursor-pointer'>You can contact me at&nbsp;</p><GmailCopy />
+                    <p className='cursor-pointer'>You can contact me at&nbsp;</p>
+                    <GmailCopy />
                 </div>
             </div>
             <div className='flex justify-center'>

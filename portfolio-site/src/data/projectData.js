@@ -1,22 +1,22 @@
 const data = {
-    name: 'Avneesh Agarwal',
-    image: '/avatar.png',
-    username: 'avneesh0612',
+    name: '',
+    image: '',
+    username: '',
     keywords:
-        'Avneesh, Agarwal, Avneesh Agarwal, web dev, blogger, content creator',
-    profession: 'FullStack web3 developer',
+        'Rd, , Avneesh Agarwal, web dev, blogger, content creator',
+    profession: '',
     intro:
-        'Focused on building products that people love to use. I love to learn new things and share my knowledge with others. I teach others by creating content!',
+        '',
     about:
-        'I’m a 16 y/o full-stack web3 developer building cool products and teaching others by creating content that revolves around many areas especially in web3.',
-    website: 'https://www.avneesh.tech',
+        '',
+    website: '',
     projects: [
         {
-            name: 'thirdweb',
-            image: '/projects/thirdweb.png',
+            name: 'Clustera',
+            image: '',
             about:
-                "Build web3 apps easily with thirdweb's powerful SDKs, audited smart contracts, and developer tools—for Ethereum, Polygon, Solana, & more.",
-            tech: ['Web3', 'Next.js', 'Chakra UI', 'Typescript', 'Content writing'],
+                "A web application made with React and Django that serves as a tool for document or textual analysis, utilizing topic techniques for classification, clustering and generation of topics. This is a Special Problem which is one of the finalrequirements to finish the Computer Science program of UPLB, which is equivalent to a thesis or Capstone Project.",
+            tech: ['Reactjs', 'D3', 'Tailwind', 'Django', 'AWS'],
             links: {
                 Live: 'https://thirdweb.com/',
                 Github: 'https://github.com/thirdweb-dev',
@@ -24,13 +24,13 @@ const data = {
             role: 'Developer Relations Engineer',
         },
         {
-            name: 'Yoke',
+            name: 'Social Media Application',
             image: '/projects/yoke.png',
             about:
-                'YOKE is the leading NIL software enabling teams to grow a business through building community. Thousands of athletes earn monthly income through NIL Clubs powered by YOKE.',
-            tech: ['Next.js', 'Chakra UI', 'Typescript', 'web3', 'thirdweb'],
+                'A Social Media application mirroring Facebook which can create, update, delete, and read posts. Created using React.js for the frontend and Node.js and Express for the backend, implementing full CRUD operations.',
+            tech: ['Reactjs', 'Nodejs', 'Express',],
             links: {
-                Live: 'https://www.yoketeam.com/',
+                Live: '',
             },
             role: 'Fullstack web3 developer',
         },

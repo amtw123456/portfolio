@@ -6,7 +6,10 @@ import { useEffect } from "react";
 const Project = (data) => {
     return (
         <section id="projects-section" className="flex flex-col">
-            <div className="font-bold mb-24 text-right text-5xl mr-12 text-purple-600">Projects</div>
+            <div className="flex flex-row justify-end items-center mb-24">
+                <hr className="mt-6 border-t-1 border-purple-600 h-2 w-72" />
+                <div className="font-mono ml-4 font-bold text-5xl text-purple-600">Project</div>
+            </div>
             {data.project.projects.map((project, i) => (
                 <article className="flex flex-col items-center mt-10 md:flex-row">
                     {/* <Image
