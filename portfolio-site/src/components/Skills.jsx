@@ -25,6 +25,7 @@ import Rust from '../image_icons/rust.png';
 import SQL from '../image_icons/sql.png';
 import Git from '../image_icons/git.png';
 import Mongodb from '../image_icons/mongodb.png';
+import Flutter from '../image_icons/flutter.png';
 import useOnScreen from './Screenhook'; // Adjust import path as necessary
 import { motion } from 'framer-motion';
 
@@ -120,6 +121,10 @@ const Skills = (data) => {
                                 <div className='flex flex-row items-center gap-2'>
                                     <img src={Tailwind} alt="Tailwind Icon" className="w-10 h-10" />
                                     <span>Tailwind</span>
+                                </div>
+                                <div className='flex flex-row items-center gap-2'>
+                                    <img src={Flutter} alt="Tailwind Icon" className="w-10 h-10" />
+                                    <span>Flutter</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
                                     <img src={CSS} alt="CSS Icon" className="w-10 h-10" />
