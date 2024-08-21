@@ -1,8 +1,58 @@
 
+import React, { useRef, useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
-import ParticlesBg from './Particles.jsx'
+import ParticlesBg from './Particles.jsx';
+import useOnScreen from './Screenhook.jsx'; // Adjust import path as necessary
 
 function Navigationbar() {
+    const aboutRef = useRef(null);
+    const skillsRef = useRef(null);
+    const projectsRef = useRef(null);
+    const contactsRef = useRef(null);
+
+    const [currentSection, setCurrentSection] = useState('');
+
+    useEffect(() => {
+        const sections = [
+            { ref: aboutRef, name: 'about-section' },
+            { ref: skillsRef, name: 'skills-section' },
+            { ref: projectsRef, name: 'projects-section' },
+            { ref: contactsRef, name: 'contacts-section' },
+        ];
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        setCurrentSection(entry.target.id);
+                    }
+                });
+            },
+            { threshold: 0.5 }
+        );
+
+        sections.forEach((section) => {
+            if (section.ref.current) {
+                observer.observe(section.ref.current);
+            }
+        });
+
+        return () => {
+            sections.forEach((section) => {
+                if (section.ref.current) {
+                    observer.unobserve(section.ref.current);
+                }
+            });
+        };
+    }, []);
+
+    useEffect(() => {
+        if (currentSection) {
+            console.log(`You are in the ${currentSection}`);
+        }
+    }, [currentSection]);
+
+
     return (
         <>
             <nav className="fixed top-0 left-0 right-0 z-50 bg-white dark:bg-gray-900 border-b dark:border-gray-700">
@@ -57,7 +107,7 @@ function Navigationbar() {
                         <ul className="flex flex-col font-medium lg:flex-row lg:space-x-24 lg:mt-0">
                             <li >
                                 <div className="border-r border-l border-t px-8 mt-5 pb-2 rounded-t-lg dark:border-gray-700">
-                                    <Link to="about-section" smooth={true} duration={500}
+                                    <Link to="about-section" smooth={true} duration={500} ref={aboutRef}
                                         className="block mt-2 border-red-200 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:cursor-pointer hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">About</Link>
                                 </div>
                             </li>
@@ -77,8 +127,15 @@ function Navigationbar() {
                             </li>
                             <li>
                                 <div className="border-b border-r border-l rounded-b-lg px-8 pt-2 dark:border-gray-700">
-                                    <Link to="contacts-section" smooth={true} duration={500}
-                                        className="block mb-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:cursor-pointer hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</Link>
+                                    <Link
+                                        to="contacts-section"
+                                        smooth={true}
+                                        duration={500}
+                                        className={`block mb-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:cursor-pointer hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700
+                                            }`}
+                                    >
+                                        Connect
+                                    </Link>
                                 </div>
                             </li>
                         </ul>
