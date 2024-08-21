@@ -2,6 +2,7 @@
 // import Image from 'next/image';
 
 import { useEffect } from "react";
+import { motion } from 'framer-motion';
 
 const Project = (data) => {
     return (

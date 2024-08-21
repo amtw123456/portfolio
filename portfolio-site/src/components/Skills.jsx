@@ -24,13 +24,19 @@ import SQL from '../image_icons/sql.png';
 import Git from '../image_icons/git.png';
 import Mongodb from '../image_icons/mongodb.png';
 
+import { motion } from 'framer-motion';
 
 const Skills = (data) => {
+
+
+
     return (
 
         <section id="skills-section" className="flex flex-col justify-between mb-60 ">
             <div className="font-mono flex flex-row items-center mb-24 ">
-                <div className="font-bold text-left text-5xl text-purple-600">Skills</div>
+                <div className="font-bold text-left text-5xl text-purple-600">
+                    <span>Skills</span>
+                </div>
                 <hr className="ml-4 mt-6 border-t-1 border-purple-600 h-2 w-72" />
             </div>
 
@@ -77,7 +83,7 @@ const Skills = (data) => {
                 <div className="grid grid-cols-5 gap-10">
                     <div className='flex flex-row items-center gap-2'>
                         <img src={Django} alt="Django Icon" className="w-10 h-10" />
-                        <span>django</span>
+                        <span>Django</span>
                     </div>
                     <div className='flex flex-row items-center gap-2'>
                         <img src={Nodejs} alt="Nodejs Icon" className="w-10 h-10" />
