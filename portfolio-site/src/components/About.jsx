@@ -1,13 +1,15 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useContext } from 'react';
 import useThemeSwitcher from '../hooks/useThemeSwitcher';
 import { FiArrowDownCircle } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 import DeveloperPhoto from '../images/Dev_Photo.jpeg';
 
-import useOnScreen from './Screenhook'; // Adjust import path as necessary
+import useOnScreen from './Screenhook';
+import { AppContext } from '../providers/AppStateProvider';
 
 const About = () => {
     const [activeTheme] = useThemeSwitcher();
+    const { inAboutSection, setInAboutSection } = useContext(AppContext);
 
     const ref = useRef(null);
     const isVisible = useOnScreen(ref);
@@ -15,10 +17,19 @@ const About = () => {
     useEffect(() => {
         if (isVisible) {
             console.log("Element is on screen");
+            setInAboutSection(true)
+
         } else {
             console.log("Element is not on screen");
+            setInAboutSection(false)
         }
+
     }, [isVisible]);
+
+
+    useEffect(() => {
+        console.log(inAboutSection)
+    }, [inAboutSection]);
 
     return (
         <section ref={ref} id="about-section" className='border border-white'>

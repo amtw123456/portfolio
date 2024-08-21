@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef, useEffect, useContext } from 'react';
 
 import Python from '../image_icons/python.png';
 import Nodejs from '../image_icons/nodejs.png';
@@ -28,9 +28,13 @@ import Mongodb from '../image_icons/mongodb.png';
 import useOnScreen from './Screenhook'; // Adjust import path as necessary
 import { motion } from 'framer-motion';
 
+import { AppContext } from '../providers/AppStateProvider';
+
 const Skills = (data) => {
 
     // const [activeTheme] = useThemeSwitcher();
+
+    const { inSkillsSection, setInSkillsSection } = useContext(AppContext);
 
     const ref = useRef(null);
     const isVisible = useOnScreen(ref);
@@ -38,8 +42,10 @@ const Skills = (data) => {
     useEffect(() => {
         if (isVisible) {
             console.log("Element is on screen");
+            setInSkillsSection(true);
         } else {
             console.log("Element is not on screen");
+            setInSkillsSection(false);
         }
     }, [isVisible]);
 

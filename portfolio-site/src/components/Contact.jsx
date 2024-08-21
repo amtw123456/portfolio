@@ -1,8 +1,9 @@
 
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useContext } from 'react';
 import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
-import useOnScreen from './Screenhook'; // Adjust import path as necessary
+import useOnScreen from './Screenhook'; // Adjust import path as 
+import { AppContext } from '../providers/AppStateProvider';
 
 const ColoredLine = ({ color }) => (
     <hr
@@ -37,7 +38,7 @@ const GmailCopy = () => {
 
 function Contact() {
     const form = useRef();
-
+    const { inContactsSection, setInContactsSection } = useContext(AppContext);
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_9mf55uv', 'template_2pweal5', form.current, 'zlCWaO64DPLn7rWrx')
@@ -58,8 +59,10 @@ function Contact() {
     useEffect(() => {
         if (isVisible) {
             console.log("Element is on screen");
+            setInContactsSection(true)
         } else {
             console.log("Element is not on screen");
+            setInContactsSection(false)
         }
     }, [isVisible]);
 

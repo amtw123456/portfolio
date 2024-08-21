@@ -1,20 +1,25 @@
 // import { GitHubIcon, VisitIcon } from '../../Icons';
 // import Image from 'next/image';
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef, useEffect, useContext } from 'react';
 import { motion } from 'framer-motion';
 import useOnScreen from './Screenhook'; // Adjust import path as necessary
 
+import { AppContext } from '../providers/AppStateProvider';
 
-const Project = (data) => {
+const Projects = (data) => {
+    const { inProjectsSection, setInProjectsSection } = useContext(AppContext);
+
     const ref = useRef(null);
     const isVisible = useOnScreen(ref);
 
     useEffect(() => {
         if (isVisible) {
             console.log("Project Section is on screen");
+            setInProjectsSection(true)
         } else {
             console.log("Project Section is not on screen");
+            setInProjectsSection(false)
         }
     }, [isVisible]);
 
@@ -325,4 +330,4 @@ const Project = (data) => {
     );
 };
 
-export default Project;
+export default Projects;
