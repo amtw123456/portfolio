@@ -65,13 +65,13 @@ const About = () => {
                             </div>
                             <div className="flex flex-row items-center justify-center gap-12 mt-6 mb-6">
                                 <a href="https://www.linkedin.com/in/ronel-dylan-joshua-a-dolor-4b3b37206/" target='_blank' rel="noopener noreferrer" >
-                                    <img src={Linkedin} alt="linkedin" className='w-12 h-12 hover:scale-105' />
+                                    <img src={Linkedin} alt="linkedin" className='w-12 h-12 hover:scale-125 transition-transform duration-300 ease-in-out' />
                                 </a>
                                 <a href="https://github.com/amtw123456" target='_blank' rel="noopener noreferrer" >
-                                    <img src={Github} alt="github" className='w-12 h-12 hover:scale-105' />
+                                    <img src={Github} alt="github" className='w-12 h-12 hover:scale-125 transition-transform duration-300 ease-in-out' />
                                 </a>
                                 <a href='mailto:radolor@up.edu.ph' target='_blank' rel="noopener noreferrer" >
-                                    <img src={Gmail} alt="gmail" className='w-14 h-14 hover:scale-105' />
+                                    <img src={Gmail} alt="gmail" className='w-14 h-14 hover:scale-125 transition-transform duration-300 ease-in-out' />
                                 </a>
                             </div>
                             <motion.p

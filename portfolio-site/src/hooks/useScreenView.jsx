@@ -22,7 +22,7 @@ export default function useOnScreen(ref) {
                 observer.unobserve(node);
             }
         };
-    }, [ref.current]); // Update effect only if `ref.current` changes
+    }, [ref]); // Use `ref` as dependency
 
     return isIntersecting;
 }

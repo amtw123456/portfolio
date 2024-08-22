@@ -69,35 +69,35 @@ const Skills = (data) => {
                             <div className='text-center mb-12 text-xl font-bold'>Programming Languages</div>
                             <div className="grid grid-cols-5 gap-10">
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={JavaScript} alt="JavaScript Icon" className="w-10 h-10" />
+                                    <img src={JavaScript} alt="JavaScript Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>JavaScript</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={TypeScript} alt="TypeScript Icon" className="w-10 h-10" />
+                                    <img src={TypeScript} alt="TypeScript Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>TypeScript</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Python} alt="Python Icon" className="w-10 h-10" />
+                                    <img src={Python} alt="Python Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>Python</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Java} alt="Java Icon" className="w-10 h-10" />
+                                    <img src={Java} alt="Java Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>Java</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={C} alt="C Icon" className="w-10 h-10" />
+                                    <img src={C} alt="C Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>C</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Cpp} alt="C++ Icon" className="w-10 h-10" />
+                                    <img src={Cpp} alt="C++ Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>C++</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Rust} alt="Rust Icon" className="w-10 h-10" />
+                                    <img src={Rust} alt="Rust Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>Rust</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={SQL} alt="SQL Icon" className="w-10 h-10" />
+                                    <img src={SQL} alt="SQL Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>SQL</span>
                                 </div>
                             </div>
@@ -107,75 +107,75 @@ const Skills = (data) => {
                             <div className="flex flex-col mb-12 text-center text-xl font-bold">Frameworks and Technologies</div>
                             <div className="grid grid-cols-5 gap-10">
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Django} alt="Django Icon" className="w-10 h-10" />
+                                    <img src={Django} alt="Django Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>Django</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Nodejs} alt="Nodejs Icon" className="w-10 h-10" />
-                                    <span>Nodejs</span>
+                                    <img src={Nodejs} alt="Nodejs Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
+                                    <span>Node.js</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Reactjs} alt="Reactjs Icon" className="w-10 h-10" />
-                                    <span>Reactjs</span>
+                                    <img src={Reactjs} alt="Reactjs Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
+                                    <span>React</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Tailwind} alt="Tailwind Icon" className="w-10 h-10" />
+                                    <img src={Tailwind} alt="Tailwind Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>Tailwind</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Flutter} alt="Tailwind Icon" className="w-10 h-10" />
+                                    <img src={Flutter} alt="Tailwind Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>Flutter</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={CSS} alt="CSS Icon" className="w-10 h-10" />
+                                    <img src={CSS} alt="CSS Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>CSS</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={HTML} alt="HTML Icon" className="w-10 h-10" />
+                                    <img src={HTML} alt="HTML Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>HTML</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={D3} alt="D3 Icon" className="w-10 h-10" />
+                                    <img src={D3} alt="D3 Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>D3</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Express} alt="Express Icon" className="w-10 h-10" />
-                                    <span>Express</span>
+                                    <img src={Express} alt="Express Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
+                                    <span>Express.js</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Nextjs} alt="Nextjs Icon" className="w-10 h-10" />
-                                    <span>Nextjs</span>
+                                    <img src={Nextjs} alt="Nextjs Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
+                                    <span>Next.js</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={AWS} alt="AWS Icon" className="w-10 h-10" />
+                                    <img src={AWS} alt="AWS Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>AWS</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Firebase} alt="Firebase Icon" className="w-10 h-10" />
+                                    <img src={Firebase} alt="Firebase Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>Firebase</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Mongodb} alt="Mongodb Icon" className="w-10 h-10" />
+                                    <img src={Mongodb} alt="Mongodb Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>Mongodb</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Selenium} alt="Selenium Icon" className="w-10 h-10" />
+                                    <img src={Selenium} alt="Selenium Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>Selenium</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Scikit} alt="Scikit Icon" className="w-10 h-10" />
-                                    <span>Scikit</span>
+                                    <img src={Scikit} alt="Scikit Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
+                                    <span>Scikit-Learn</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Gensim} alt="Gensim Icon" className="w-10 h-10" />
+                                    <img src={Gensim} alt="Gensim Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>Gensim</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Opencv} alt="Opencv Icon" className="w-10 h-10" />
-                                    <span>Opencv</span>
+                                    <img src={Opencv} alt="Opencv Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
+                                    <span>OpenCV</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
-                                    <img src={Git} alt="Git Icon" className="w-10 h-10" />
+                                    <img src={Git} alt="Git Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>Git</span>
                                 </div>
                             </div>
@@ -188,7 +188,7 @@ const Skills = (data) => {
                         <div className='text-center mb-12 text-xl font-bold'>Programming Languages</div>
                         <div className="grid grid-cols-5 gap-10">
                             <div className='flex flex-row items-center gap-2'>
-                                <img src={JavaScript} alt="JavaScript Icon" className="w-10 h-10" />
+                                <img src={JavaScript} alt="JavaScript Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                 <span>JavaScript</span>
                             </div>
                             <div className='flex flex-row items-center gap-2'>
