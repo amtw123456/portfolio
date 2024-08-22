@@ -156,7 +156,7 @@ const About = () => {
                     </motion.section>
                 </div >
             ) : (
-                <div className="z-50 mb-72 pt-36">
+                <div className="z-50 mb-72 pt-36 opacity-0">
                     <div className="flex flex-col items-center justify-center">
                         <div className="w-full">
                             <div className="items-center flex justify-center">

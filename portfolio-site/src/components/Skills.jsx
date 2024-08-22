@@ -183,8 +183,7 @@ const Skills = (data) => {
                     </motion.section>
                 </div>
             ) :
-                <div className='mb-60'>
-
+                <div className='mb-60 opacity-0'>
                     <div className="flex flex-col mb-24 mx-24">
                         <div className='text-center mb-12 text-xl font-bold'>Programming Languages</div>
                         <div className="grid grid-cols-5 gap-10">

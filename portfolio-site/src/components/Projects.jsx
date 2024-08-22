@@ -180,7 +180,7 @@ const Projects = (data) => {
                     </div>
                 </motion.article>
             ) : <>
-                <div className="mb-24">
+                <div className="mb-24 opacity-0">
                     {data.project.projects.map((project, i) => (
                         <article className="flex flex-col items-center mt-10 md:flex-row">
                             <a class="group max-w-xs h-60 relative flex flex-col w-full min-h-60 bg-center bg-cover rounded-xl hover:shadow-lg focus:outline-none focus:shadow-lg bg-[url('https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3000&q=80')] transition">
