@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio-website-amtw123456/static/css/main.9f5c697f.css",
+    "main.js": "/portfolio-website-amtw123456/static/js/main.a1a30a00.js",
+    "static/media/Dev_Photo.jpeg": "/portfolio-website-amtw123456/static/media/Dev_Photo.b7c9cdf91439d6b34bf6.jpeg",
+    "static/media/C.png": "/portfolio-website-amtw123456/static/media/C.1d585e3bef71665aff7b.png",
+    "static/media/firebase.png": "/portfolio-website-amtw123456/static/media/firebase.5aa7cf22cd45ec6bbec2.png",
+    "static/media/Dolor-Resume.pdf": "/portfolio-website-amtw123456/static/media/Dolor-Resume.da7d90a14b46b49145d7.pdf",
+    "static/media/C++.png": "/portfolio-website-amtw123456/static/media/C++.34777258570244e27222.png",
+    "static/media/selenium.png": "/portfolio-website-amtw123456/static/media/selenium.8acd00a91ebc15e2633e.png",
+    "static/media/gensim.png": "/portfolio-website-amtw123456/static/media/gensim.61a393f403ca30f10b05.png",
+    "static/media/opencv.png": "/portfolio-website-amtw123456/static/media/opencv.93ec810d647dc944c38c.png",
+    "static/media/scikitlearn.png": "/portfolio-website-amtw123456/static/media/scikitlearn.5192df550f56dd1a80c8.png",
+    "static/media/d3.png": "/portfolio-website-amtw123456/static/media/d3.ae6ff41639ea0bb49108.png",
+    "static/media/nextjs.png": "/portfolio-website-amtw123456/static/media/nextjs.ab8293c95faf26dc5e3e.png",
+    "static/media/python.png": "/portfolio-website-amtw123456/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/rust.png": "/portfolio-website-amtw123456/static/media/rust.96c8388701f0d0cc4d64.png",
+    "static/media/gmail.png": "/portfolio-website-amtw123456/static/media/gmail.cc8e636f141dccdc45f8.png",
+    "static/media/java.png": "/portfolio-website-amtw123456/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/git.png": "/portfolio-website-amtw123456/static/media/git.fe3389fe897eb0a69d45.png",
+    "static/media/express.png": "/portfolio-website-amtw123456/static/media/express.39a0f4c3d981885c64f8.png",
+    "static/media/sql.png": "/portfolio-website-amtw123456/static/media/sql.48a66afef5900e8bc474.png",
+    "static/media/html.png": "/portfolio-website-amtw123456/static/media/html.cfb2ba4a6b1c3de295bc.png",
+    "static/media/aws.png": "/portfolio-website-amtw123456/static/media/aws.dc407c532bab5d443ddc.png",
+    "static/media/github.png": "/portfolio-website-amtw123456/static/media/github.9442b07914eebed7fef8.png",
+    "static/media/css.png": "/portfolio-website-amtw123456/static/media/css.4a6549b8c2b4cda8bb88.png",
+    "static/media/typescript.png": "/portfolio-website-amtw123456/static/media/typescript.af108db04a54d784da9b.png",
+    "static/media/javascript.png": "/portfolio-website-amtw123456/static/media/javascript.3dfb665e058d08c99f28.png",
+    "index.html": "/portfolio-website-amtw123456/index.html",
+    "main.9f5c697f.css.map": "/portfolio-website-amtw123456/static/css/main.9f5c697f.css.map",
+    "main.a1a30a00.js.map": "/portfolio-website-amtw123456/static/js/main.a1a30a00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f5c697f.css",
+    "static/js/main.a1a30a00.js"
+  ]
+}
