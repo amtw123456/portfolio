@@ -3,7 +3,7 @@
 
 import React, { useRef, useEffect, useContext } from 'react';
 import { motion } from 'framer-motion';
-import useOnScreen from './Screenhook'; // Adjust import path as necessary
+import useOnScreen from '../hooks/useScreenView'; // Adjust import path as necessary
 
 import { AppContext } from '../providers/AppStateProvider';
 
@@ -140,7 +140,7 @@ const Projects = (data) => {
                                     <p className="text-textDark mt-3 md:max-w-[700px]">{project.about}</p>
                                     {project.tech.map((tech, i) => (
                                         <span
-                                            className="border inline-block bg-text text-darker Blue rounded-full px-3 py-1 mt-2 mr-2"
+                                            className="border-2 inline-block bg-text text-darker Blue rounded-full px-3 py-1 mt-2 mr-2"
                                             key={i}
                                         >
                                             {tech}

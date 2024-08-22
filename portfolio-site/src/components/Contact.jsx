@@ -2,7 +2,7 @@
 import React, { useRef, useEffect, useContext } from 'react';
 import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
-import useOnScreen from './Screenhook'; // Adjust import path as 
+import useOnScreen from '../hooks/useScreenView'; // Adjust import path as 
 import { AppContext } from '../providers/AppStateProvider';
 
 const ColoredLine = ({ color }) => (

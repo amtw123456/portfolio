@@ -4,13 +4,13 @@ import { useLocation } from 'react-router-dom';
 import "preline/preline";
 import { IStaticMethods } from "preline/preline";
 
-import Navigationbar from './components/Navigationbar.jsx'
-import ParticlesBg from './components/Particles.jsx'
-import About from './components/About.jsx'
-import Projects from './components/Projects.jsx'
-import Skills from './components/Skills.jsx'
-import Contact from './components/Contact.jsx'
-import data from './data/projectData.js'
+import Navigationbar from './components/Navigationbar.jsx';
+import ParticlesBg from './assets/Particles.jsx';
+import About from './components/About.jsx';
+import Projects from './components/Projects.jsx';
+import Skills from './components/Skills.jsx';
+import Contact from './components/Contact.jsx';
+import data from './data/projectData.js';
 
 import { AppStateProvider } from './providers/AppStateProvider.jsx';
 

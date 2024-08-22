@@ -2,11 +2,16 @@ import React, { useEffect, useRef, useState, useContext } from 'react';
 import useThemeSwitcher from '../hooks/useThemeSwitcher';
 import { FiArrowDownCircle } from 'react-icons/fi';
 import { motion } from 'framer-motion';
-import DeveloperPhoto from '../images/Dev_Photo.jpeg';
+import DeveloperPhoto from '../assets/images/Dev_Photo.jpeg';
 
-import useOnScreen from './Screenhook';
+import useOnScreen from '../hooks/useScreenView';
 import { AppContext } from '../providers/AppStateProvider';
-export const Resume = require('../data/Dolor-Resume.pdf')
+
+import Linkedin from '../assets/social_image_icons/linkedin.png';
+import Github from '../assets/social_image_icons/github.png';
+import Gmail from '../assets/social_image_icons/gmail.png';
+
+export const Resume = require('../assets/Dolor-Resume.pdf')
 
 const About = () => {
     const [activeTheme] = useThemeSwitcher();
@@ -57,6 +62,17 @@ const About = () => {
                                     <img src={DeveloperPhoto} alt="Random Image" className="w-64 h-64 rounded-full" />
                                 </motion.div>
 
+                            </div>
+                            <div className="flex flex-row items-center justify-center gap-12">
+                                <a href="https://www.linkedin.com/in/ronel-dylan-joshua-a-dolor-4b3b37206/" target='_blank' rel="noopener noreferrer" >
+                                    <img src={Linkedin} alt="linkedin" className='w-12 h-12 hover:scale-105' />
+                                </a>
+                                <a href="https://github.com/amtw123456" target='_blank' rel="noopener noreferrer" >
+                                    <img src={Github} alt="github" className='w-12 h-12 hover:scale-105' />
+                                </a>
+                                <a href='mailto:radolor@up.edu.ph' target='_blank' rel="noopener noreferrer" >
+                                    <img src={Gmail} alt="gmail" className='w-14 h-14 hover:scale-105' />
+                                </a>
                             </div>
                             <motion.p
                                 initial={{ opacity: 0 }}
@@ -147,6 +163,17 @@ const About = () => {
                                 <div className="font-general-semibold text-2xl text-center text-ternary-dark">
                                     <img src={DeveloperPhoto} alt="Random Image" className="w-64 h-64 rounded-full" />
                                 </div>
+                            </div>
+                            <div className="mt-4 flex justify-center md:justify-start space-x-4">
+                                <a href='https://www.linkedin.com/in/zenn-louie-reyes-a60895215/' target='_blank' rel="noopener noreferrer" className="w-10 h-10 md:w-12 md:h-12">
+                                    <img src={Linkedin} alt="linkedin" className='w-full h-full hover:scale-105' />
+                                </a>
+                                <a href='https://github.com/zennlouie' target='_blank' rel="noopener noreferrer" className="w-10 h-10 md:w-12 md:h-12">
+                                    <img src={Github} alt="github" className='w-full h-full hover:scale-105' />
+                                </a>
+                                <a href='mailto:reyeszlc21@gmail.com' target='_blank' rel="noopener noreferrer" className="w-10 h-10 md:w-12 md:h-12">
+                                    <img src={Gmail} alt="gmail" className='w-full h-full hover:scale-105' />
+                                </a>
                             </div>
                             <p className="font-general-medium mt-4 text-lg text-center leading-normal text-gray-500">
                                 A Full-Stack Developer & Design Enthusiast
