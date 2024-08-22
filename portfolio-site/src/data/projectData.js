@@ -13,7 +13,22 @@ const data = {
     projects: [
         {
             name: 'Clustera',
-            images: [require('../assets/project_images/Test.JPG'), require('../assets/project_images/Test.JPG'), require('../assets/project_images/Test.JPG')],
+            images:
+                [
+                    require('../assets/project_images/Clustera-images/UploadPage.JPG'),
+                    require('../assets/project_images/Clustera-images/LDApage1.JPG'),
+                    require('../assets/project_images/Clustera-images/LDApage2.JPG'),
+                    require('../assets/project_images/Clustera-images/LDApage3.JPG'),
+                    require('../assets/project_images/Clustera-images/LDApage4.JPG'),
+                    require('../assets/project_images/Clustera-images/LDApage5.JPG'),
+                    require('../assets/project_images/Clustera-images/LDApage6.JPG'),
+                    require('../assets/project_images/Clustera-images/LDApage7.JPG'),
+                    require('../assets/project_images/Clustera-images/LDApage8.JPG'),
+                    require('../assets/project_images/Clustera-images/LDApage9.JPG'),
+                    require('../assets/project_images/Clustera-images/LDApage10.JPG'),
+                    require('../assets/project_images/Clustera-images/LDApage11.JPG'),
+
+                ],
             about:
                 "A web application made with React and Django that serves as a tool for document or textual analysis, utilizing topic techniques for classification, clustering and generation of topics. This is a Special Problem which is one of the finalrequirements to finish the Computer Science program of UPLB, which is equivalent to a thesis or Capstone Project.",
             tech: ['React.js', 'D3', 'Tailwind', 'Django', 'AWS'],

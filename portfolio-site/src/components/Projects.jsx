@@ -43,6 +43,7 @@ const Projects = (data) => {
                     transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
                     className="flex flex-col items-center justify-center"
                 >
+
                     <div className="flex flex-wrap">
                         {
                             data.project.projects.map((project, i) => {

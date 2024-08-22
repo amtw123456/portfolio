@@ -24,7 +24,7 @@ const ProjectCarousel = ({ project }) => {
                 <div className="carousel-inner ">
                     {project.images.map((image, index) => (
                         <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
-                            <img className="d-block w-100 hover:scale-105 transition-transform duration-300 ease-in-out" src={image} alt={`Slide ${index + 1}`} />
+                            <img className="d-block hover:scale-150 transition-transform duration-300 ease-in-out" src={image} alt={`Slide ${index + 1}`} />
                         </div>
                     ))}
                 </div>
