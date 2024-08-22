@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.40be3f71.css",
-    "main.js": "/portfolio/static/js/main.0f2aed99.js",
+    "main.css": "/portfolio/static/css/main.7269bbf9.css",
+    "main.js": "/portfolio/static/js/main.c6e2e9ba.js",
     "static/media/Dev_Photo.jpeg": "/portfolio/static/media/Dev_Photo.b7c9cdf91439d6b34bf6.jpeg",
     "static/media/C.png": "/portfolio/static/media/C.1d585e3bef71665aff7b.png",
     "static/media/firebase.png": "/portfolio/static/media/firebase.5aa7cf22cd45ec6bbec2.png",
@@ -12,6 +12,7 @@
     "static/media/opencv.png": "/portfolio/static/media/opencv.93ec810d647dc944c38c.png",
     "static/media/scikitlearn.png": "/portfolio/static/media/scikitlearn.5192df550f56dd1a80c8.png",
     "static/media/d3.png": "/portfolio/static/media/d3.ae6ff41639ea0bb49108.png",
+    "static/media/Test.JPG": "/portfolio/static/media/Test.83ba4457d62ee8f747b6.JPG",
     "static/media/nextjs.png": "/portfolio/static/media/nextjs.ab8293c95faf26dc5e3e.png",
     "static/media/python.png": "/portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
     "static/media/rust.png": "/portfolio/static/media/rust.96c8388701f0d0cc4d64.png",
@@ -27,11 +28,11 @@
     "static/media/typescript.png": "/portfolio/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
-    "main.40be3f71.css.map": "/portfolio/static/css/main.40be3f71.css.map",
-    "main.0f2aed99.js.map": "/portfolio/static/js/main.0f2aed99.js.map"
+    "main.7269bbf9.css.map": "/portfolio/static/css/main.7269bbf9.css.map",
+    "main.c6e2e9ba.js.map": "/portfolio/static/js/main.c6e2e9ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.40be3f71.css",
-    "static/js/main.0f2aed99.js"
+    "static/css/main.7269bbf9.css",
+    "static/js/main.c6e2e9ba.js"
   ]
 }
