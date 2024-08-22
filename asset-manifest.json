@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website-amtw123456/static/css/main.9f5c697f.css",
-    "main.js": "/portfolio-website-amtw123456/static/js/main.a1a30a00.js",
+    "main.css": "/portfolio-website-amtw123456/static/css/main.40be3f71.css",
+    "main.js": "/portfolio-website-amtw123456/static/js/main.e81f6a55.js",
     "static/media/Dev_Photo.jpeg": "/portfolio-website-amtw123456/static/media/Dev_Photo.b7c9cdf91439d6b34bf6.jpeg",
     "static/media/C.png": "/portfolio-website-amtw123456/static/media/C.1d585e3bef71665aff7b.png",
     "static/media/firebase.png": "/portfolio-website-amtw123456/static/media/firebase.5aa7cf22cd45ec6bbec2.png",
@@ -27,11 +27,11 @@
     "static/media/typescript.png": "/portfolio-website-amtw123456/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/javascript.png": "/portfolio-website-amtw123456/static/media/javascript.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio-website-amtw123456/index.html",
-    "main.9f5c697f.css.map": "/portfolio-website-amtw123456/static/css/main.9f5c697f.css.map",
-    "main.a1a30a00.js.map": "/portfolio-website-amtw123456/static/js/main.a1a30a00.js.map"
+    "main.40be3f71.css.map": "/portfolio-website-amtw123456/static/css/main.40be3f71.css.map",
+    "main.e81f6a55.js.map": "/portfolio-website-amtw123456/static/js/main.e81f6a55.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f5c697f.css",
-    "static/js/main.a1a30a00.js"
+    "static/css/main.40be3f71.css",
+    "static/js/main.e81f6a55.js"
   ]
 }
