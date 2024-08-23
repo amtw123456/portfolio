@@ -95,13 +95,14 @@ const About = () => {
                                     delay: 0.1,
                                 }}
                             >
-                                <div className='mx-48 text-center'>
+                                <div className='mx-48 text-center mt-12'>
                                     <span>
-                                        Hi, I'm RD, a recent Computer Science graduate with a strong passion for machine learning, data analytics,
-                                        and software development. My academic background has equipped me with a solid foundation in these areas, and \
-                                        I am eager to apply my skills in a professional setting. I am enthusiastic about tackling real-world problems
-                                        and contributing to innovative projects that make an impact. I'm looking forward to starting my career and
-                                        continuing to learn and grow in these dynamic fields.
+                                        Hi, I'm RD, a recent Computer Science graduate from the University of the Philippines Los Baños.
+                                        I'm a developer with a strong passion for Machine Learning, Data Analytics, Software Development,
+                                        and Finance. My interest in technology has driven me to continually learn and explore these fields.
+                                        I enjoy creating applications that can improve the daily lives of individuals and analyze data by
+                                        transforming raw data into meaningful insights allowing for more informed decisions.
+
                                     </span>
                                 </div>
                             </motion.div>
@@ -128,7 +129,7 @@ const About = () => {
                                         </span>
                                     </a>
                                 </motion.div>
-                                <motion.div
+                                {/* <motion.div
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{
@@ -149,7 +150,7 @@ const About = () => {
                                             Download CV
                                         </span>
                                     </a>
-                                </motion.div>
+                                </motion.div> */}
                             </div>
                         </div>
 
@@ -180,9 +181,9 @@ const About = () => {
                             </p>
                             <div className="mx-48 text-center">
                                 <span>
-                                    Hi, I'm RD, a recent Computer Science graduate with a strong passion for machine learning, data analytics,
-                                    and software development. My academic background has equipped me with a solid foundation in these areas, and
-                                    I am eager to apply my skills in a professional setting. I am enthusiastic about tackling real-world problems
+                                    Hi, I'm RD, a recent Computer Science graduate from the Univeristy of the Philippines Los Baños. I have
+                                    a strong passion for machine learning, data analytics, and software development.
+                                    I'm eager to apply my skills in a professional setting. I am enthusiastic about tackling real-world problems
                                     and contributing to innovative projects that make an impact. I'm looking forward to starting my career and
                                     continuing to learn and grow in these dynamic fields.
                                 </span>
@@ -201,7 +202,7 @@ const About = () => {
                                         </span>
                                     </a>
                                 </div>
-                                <div className="flex justify-center sm:block">
+                                {/* <div className="flex justify-center sm:block">
                                     <a
                                         download="Dolor-Resume.pdf"
                                         href={Resume}
@@ -213,7 +214,7 @@ const About = () => {
                                             Download CV
                                         </span>
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

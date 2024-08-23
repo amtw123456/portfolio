@@ -31,7 +31,7 @@ const data = {
                 ],
             about:
                 "A web application made with React and Django that serves as a tool for document or textual analysis, utilizing topic techniques for classification, clustering and generation of topics. This is a Special Problem which is one of the finalrequirements to finish the Computer Science program of UPLB, which is equivalent to a thesis or Capstone Project.",
-            tech: ['React.js', 'D3', 'Tailwind', 'Django', 'AWS'],
+            tech: ['React', 'D3.js', 'Tailwind', 'Django', 'AWS'],
             links: {
                 Live: '',
                 Github: 'https://github.com/thirdweb-dev',
@@ -43,7 +43,7 @@ const data = {
             images: [require('../assets/project_images/Test.JPG'), require('../assets/project_images/Test.JPG'), require('../assets/project_images/Test.JPG'), require('../assets/project_images/Test.JPG')],
             about:
                 'A Social Media application mirroring Facebook which can create, update, delete, and read posts. Created using React.js for the frontend and Node.js and Express for the backend, implementing full CRUD operations.',
-            tech: ['React.js', 'Node.js', 'Express',],
+            tech: ['React', 'Node.js', 'Express.js',],
             links: {
                 Live: '',
             },
@@ -51,7 +51,7 @@ const data = {
         },
         {
             name: 'LOL Code Interpreter',
-            images: [require('../assets/project_images/Test.JPG'), require('../assets/project_images/Test.JPG')],
+            images: [require('../assets/project_images/LOLCode-Interpreter-images/interpreter1.png')],
             about: 'An Interpreter made with Python for the programming language LOL. It has a Graphical User Interface, Lexical Analyzer and Syntax Analyze',
             tech: ['Python'],
             links: {

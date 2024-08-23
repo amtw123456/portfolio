@@ -136,7 +136,7 @@ const Skills = (data) => {
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
                                     <img src={D3} alt="D3 Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
-                                    <span>D3</span>
+                                    <span>D3.js</span>
                                 </div>
                                 <div className='flex flex-row items-center gap-2'>
                                     <img src={Express} alt="Express Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
