@@ -31,7 +31,7 @@ function App() {
       <div className="sm:max-w-screen-xl sm:px-12 sm:mx-auto bg-white sm:pb-24">
         <About></About>
         <Skills></Skills>
-        <Projects project={data} />
+        {/* <Projects project={data} /> */}
         {/* <Contact></Contact> */}
 
       </div>
