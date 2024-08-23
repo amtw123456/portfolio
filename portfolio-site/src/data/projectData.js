@@ -64,7 +64,7 @@ const data = {
             name: 'Financial Tracker',
             images: [require('../assets/project_images/Test.JPG')],
             about: 'The financial tracker is a web application designed to help users manage their finances, built with Next.js and Tailwind for the frontend, and Laravel for the backend. Next.js powers the user interface with its fast, SEO-friendly framework, while Tailwind provides a responsive and visually appealing design through its utility-first CSS approach. On the backend, Laravel handles the server-side logic, including data management, authentication, and API creation. The application likely features a dashboard for financial overviews, transaction logging and categorization, and customizable settings. By integrating these technologies, the financial tracker offers a powerful, scalable, and user-friendly solution for effective financial management.',
-            tech: ['Next.js', 'Tailwind', 'Laravel', 'Mongodb'],
+            tech: ['Next.js', 'Tailwind'],
 
             links: {
                 GitHub: 'https://github.com/candypay',

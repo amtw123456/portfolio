@@ -28,11 +28,9 @@ function App() {
       <ParticlesBg></ParticlesBg>
       <Navigationbar></Navigationbar>
       {/* <div className="bg-white dark:bg-gray-900 dark:border-gray-700"> */}
-      <div className="max-w-screen-xl px-12 mx-auto bg-white pb-24">
+      <div className="sm:max-w-screen-xl sm:px-12 sm:mx-auto bg-white sm:pb-24">
         <About></About>
         <Skills></Skills>
-
-
         <Projects project={data} />
         <Contact></Contact>
 

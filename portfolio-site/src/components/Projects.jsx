@@ -83,7 +83,7 @@ const Projects = (data) => {
                                                         ))}
                                                     </div>
                                                     <span className="mt-2">
-                                                        {project.about}
+                                                        {/* {project.about} */}
                                                     </span>
                                                 </div>
                                             </div>
@@ -100,23 +100,22 @@ const Projects = (data) => {
                 <>
                     <div className="flex flex-wrap opacity-0">
                         {
-                            data.project.projects.map((project, i) => (
-                                <div className='w-1/2 rounded-lg'>
-                                    {
-                                        i % 2 === 0 ? (
-                                            <div className="flex flex-wrap pr-12 mb-12">
-                                                <img src={ProjectSampleImage} className="rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out" />
+                            data.project.projects.map((project, i) => {
+                                // Generate a unique ID for the carousel
+                                // const carouselId = `carousel-${uuidv4()}`;
 
+                                return (
+                                    <div className='w-1/2 rounded-lg' key={i}>
+                                        {i % 2 === 0 ? (
+                                            <div className="flex flex-wrap pl-12 mb-4">
+                                                <Carousel project={project} ProjectSampleImage={ProjectSampleImage} />
                                                 <div className="flex flex-col">
                                                     <span className="font-medium font-serif text-3xl mt-2">
                                                         {project.name}
                                                     </span>
                                                     <div className='flex flex-row py-2'>
                                                         {project.tech.map((tech, i) => (
-                                                            <div className='flex flex-row'>
-                                                                <img src={JavaScript} alt="JavaScript Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
-                                                                <span className='border border-gray-400 rounded-full mr-4 py-1 px-2'>{tech}</span>
-                                                            </div>
+                                                            <span className='border border-gray-400 rounded-full mr-4 py-1 px-2' key={i}>{tech}</span>
                                                         ))}
                                                     </div>
                                                     <span className="mt-2">
@@ -125,8 +124,8 @@ const Projects = (data) => {
                                                 </div>
                                             </div>
                                         ) : (
-                                            <div className="flex flex-wrap pl-12">
-                                                <img src={ProjectSampleImage} className="rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out" />
+                                            <div className="flex flex-wrap pl-12 mb-4">
+                                                <Carousel project={project} ProjectSampleImage={ProjectSampleImage} />
 
                                                 <div className="flex flex-col">
                                                     <span className="font-medium font-serif text-3xl mt-2">
@@ -134,20 +133,21 @@ const Projects = (data) => {
                                                     </span>
                                                     <div className='flex flex-row py-2'>
                                                         {project.tech.map((tech, i) => (
-                                                            <span className='border border-gray-400	rounded-full mr-4 py-1 px-2'>{tech}</span>
+                                                            <span className='border border-gray-400 rounded-full mr-4 py-1 px-2' key={i}>{tech}</span>
                                                         ))}
                                                     </div>
                                                     <span className="mt-2">
-                                                        {project.about}
+                                                        {/* {project.about} */}
                                                     </span>
                                                 </div>
                                             </div>
-                                        )
-                                    }
+                                        )}
+                                    </div>
+                                );
+                            })
 
-                                </div>
-                            ))
                         }
+
 
                     </div>
 
