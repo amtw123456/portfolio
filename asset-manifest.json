@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.58d19fef.css",
-    "main.js": "/portfolio/static/js/main.452a36e5.js",
+    "main.js": "/portfolio/static/js/main.a12edfc4.js",
     "static/media/Dev_Photo.jpeg": "/portfolio/static/media/Dev_Photo.b7c9cdf91439d6b34bf6.jpeg",
     "static/media/LDApage10.JPG": "/portfolio/static/media/LDApage10.3c1571f65b5f2ff79811.JPG",
     "static/media/LDApage7.JPG": "/portfolio/static/media/LDApage7.21ac401bc4d8a83ed925.JPG",
@@ -24,6 +24,7 @@
     "static/media/UploadPage.JPG": "/portfolio/static/media/UploadPage.355a37f29759855e8bd4.JPG",
     "static/media/scikitlearn.png": "/portfolio/static/media/scikitlearn.5192df550f56dd1a80c8.png",
     "static/media/d3.png": "/portfolio/static/media/d3.ae6ff41639ea0bb49108.png",
+    "static/media/interpreter1.png": "/portfolio/static/media/interpreter1.21b3bb854ca2ba6c4029.png",
     "static/media/Test.JPG": "/portfolio/static/media/Test.83ba4457d62ee8f747b6.JPG",
     "static/media/nextjs.png": "/portfolio/static/media/nextjs.ab8293c95faf26dc5e3e.png",
     "static/media/python.png": "/portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
@@ -41,10 +42,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
     "main.58d19fef.css.map": "/portfolio/static/css/main.58d19fef.css.map",
-    "main.452a36e5.js.map": "/portfolio/static/js/main.452a36e5.js.map"
+    "main.a12edfc4.js.map": "/portfolio/static/js/main.a12edfc4.js.map"
   },
   "entrypoints": [
     "static/css/main.58d19fef.css",
-    "static/js/main.452a36e5.js"
+    "static/js/main.a12edfc4.js"
   ]
 }
