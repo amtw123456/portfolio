@@ -17,7 +17,7 @@ const ColoredLine = ({ color }) => (
 
 
 const GmailCopy = () => {
-    const gmailAddress = 'radolor@.edu.ph'
+    const gmailAddress = 'radolor@up.edu.ph'
 
     const copyToClipboard = () => {
         navigator.clipboard.writeText(gmailAddress)
