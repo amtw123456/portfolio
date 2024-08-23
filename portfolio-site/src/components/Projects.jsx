@@ -83,7 +83,7 @@ const Projects = (data) => {
                                                         ))}
                                                     </div>
                                                     <span className="mt-2">
-                                                        {/* {project.about} */}
+                                                        {project.about}
                                                     </span>
                                                 </div>
                                             </div>
@@ -103,7 +103,6 @@ const Projects = (data) => {
                             data.project.projects.map((project, i) => {
                                 // Generate a unique ID for the carousel
                                 // const carouselId = `carousel-${uuidv4()}`;
-
                                 return (
                                     <div className='w-1/2 rounded-lg' key={i}>
                                         {i % 2 === 0 ? (
@@ -137,7 +136,7 @@ const Projects = (data) => {
                                                         ))}
                                                     </div>
                                                     <span className="mt-2">
-                                                        {/* {project.about} */}
+                                                        {project.about}
                                                     </span>
                                                 </div>
                                             </div>
@@ -145,10 +144,7 @@ const Projects = (data) => {
                                     </div>
                                 );
                             })
-
                         }
-
-
                     </div>
 
                 </>

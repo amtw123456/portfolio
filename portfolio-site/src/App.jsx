@@ -32,7 +32,7 @@ function App() {
         <About></About>
         <Skills></Skills>
         <Projects project={data} />
-        <Contact></Contact>
+        {/* <Contact></Contact> */}
 
       </div>
       {/* </div > */}
