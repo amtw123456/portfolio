@@ -95,7 +95,7 @@ const About = () => {
                                     delay: 0.1,
                                 }}
                             >
-                                <div className='mx-48 text-center mt-12'>
+                                <div className='sm:mx-48 text-center mt-12'>
                                     <span>
                                         Hi, I'm RD, a recent Computer Science graduate from the University of the Philippines Los Baños.
                                         I'm a developer with a strong passion for Machine Learning, Data Analytics, Software Development,
@@ -179,7 +179,7 @@ const About = () => {
                             <p className="font-general-medium mt-4 text-lg text-center leading-normal text-gray-500">
                                 Full-Stack Developer | Machine Learning & Data Analytics Enthusiast
                             </p>
-                            <div className="mx-48 text-center">
+                            <div className="sm:mx-48 text-center">
                                 <span>
                                     Hi, I'm RD, a recent Computer Science graduate from the Univeristy of the Philippines Los Baños. I have
                                     a strong passion for machine learning, data analytics, and software development.

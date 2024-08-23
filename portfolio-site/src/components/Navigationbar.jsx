@@ -45,9 +45,9 @@ function Navigationbar() {
 
                     </div>
                     <div className="justify-center flex flex-1 items-center w-full lg:w-auto lg:order-1">
-                        <ul className="flex font-medium space-x-4 md:space-x-24" >
+                        <ul className="flex font-medium space-x-2 md:space-x-24" >
                             <li >
-                                <div className="md:border-r md:border-l md:border-t px-8 mt-4 pb-2 rounded-t-lg">
+                                <div className="md:border-r md:border-l md:border-t sm:px-8 mt-4 pb-2 rounded-t-lg">
                                     <Link to="about-section" smooth={true} duration={500}
                                         className={`select-none	block pl-3 pr-4 text-gray-700 hover:cursor-pointer lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${inAboutSection ? 'text-purple-700' : ''}`}
                                     >
@@ -56,7 +56,7 @@ function Navigationbar() {
                                 </div>
                             </li>
                             <li>
-                                <div className="md:border-b md:border-r md:border-l rounded-b-lg px-8 pt-2">
+                                <div className="md:border-b md:border-r md:border-l rounded-b-lg sm:px-8 pt-2">
                                     <Link to="skills-section" smooth={true} duration={500}
                                         className={`select-none	block pl-3 pr-4 text-gray-700 hover:cursor-pointer lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${inSkillsSection ? 'text-purple-700' : ''}`}
                                     >
@@ -65,7 +65,7 @@ function Navigationbar() {
                                 </div>
                             </li>
                             <li>
-                                <div className="md:border-r md:border-l md:border-t px-8 mt-4 pb-2 rounded-t-lg">
+                                <div className="md:border-r md:border-l md:border-t sm:px-8 mt-4 pb-2 rounded-t-lg">
                                     <Link to="projects-section" smooth={true} duration={500}
                                         className={`select-none	block pl-3 pr-4 text-gray-700 hover:cursor-pointer lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${inProjectsSection ? 'text-purple-700' : ''}`}
                                     >
@@ -74,7 +74,7 @@ function Navigationbar() {
                                 </div>
                             </li>
                             <li>
-                                <div className="md:border-b md:border-r md:border-l rounded-b-lg px-8 pt-2">
+                                <div className="md:border-b md:border-r md:border-l rounded-b-lg sm:px-8 pt-2">
                                     <Link to="contacts-section" smooth={true} duration={500}
                                         className={`select-none	block pl-3 pr-4 text-gray-700 hover:cursor-pointer lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${inContactsSection ? 'text-purple-700' : ''}`}
                                     >

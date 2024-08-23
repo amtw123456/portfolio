@@ -65,9 +65,9 @@ const Skills = (data) => {
                         animate={{ opacity: 1 }}
                         transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
                     >
-                        <div className="flex flex-col mb-24 mx-24">
+                        <div className="flex flex-col mb-24 sm:mx-24">
                             <div className='text-center mb-12 text-xl font-bold'>Programming Languages</div>
-                            <div className="grid grid-cols-5 gap-10">
+                            <div className="sm:grid sm:grid-cols-5 sm:gap-10 flex flex-col flex-wrap justify-center items-center">
                                 <div className='flex flex-row items-center gap-2'>
                                     <img src={JavaScript} alt="JavaScript Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>JavaScript</span>
@@ -103,9 +103,9 @@ const Skills = (data) => {
                             </div>
 
                         </div>
-                        <div className="flex flex-col my-24 mx-24">
+                        <div className="flex flex-col my-24 sm:mx-24">
                             <div className="flex flex-col mb-12 text-center text-xl font-bold">Frameworks and Technologies</div>
-                            <div className="grid grid-cols-5 gap-10">
+                            <div className="sm:grid sm:grid-cols-5 sm:gap-10 flex flex-col flex-wrap justify-center items-center">
                                 <div className='flex flex-row items-center gap-2'>
                                     <img src={Django} alt="Django Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                     <span>Django</span>
@@ -184,9 +184,9 @@ const Skills = (data) => {
                 </div>
             ) :
                 <div className='mb-60 opacity-0'>
-                    <div className="flex flex-col mb-24 mx-24">
+                    <div className="flex flex-col mb-24 sm:mx-24">
                         <div className='text-center mb-12 text-xl font-bold'>Programming Languages</div>
-                        <div className="grid grid-cols-5 gap-10">
+                        <div className="sm:grid sm:grid-cols-5 sm:gap-10 flex flex-col flex-wrap justify-center items-center">
                             <div className='flex flex-row items-center gap-2'>
                                 <img src={JavaScript} alt="JavaScript Icon" className="w-10 h-10 hover:scale-125 transition-transform duration-300 ease-in-out" />
                                 <span>JavaScript</span>
@@ -222,9 +222,9 @@ const Skills = (data) => {
                         </div>
 
                     </div>
-                    <div className="flex flex-col my-24 mx-24">
+                    <div className="flex flex-col my-24 sm:mx-24">
                         <div className="flex flex-col mb-12 text-center text-xl font-bold">Frameworks and Technologies</div>
-                        <div className="grid grid-cols-5 gap-10">
+                        <div className="sm:grid sm:grid-cols-5 sm:gap-10 flex flex-col flex-wrap justify-center items-center">
                             <div className='flex flex-row items-center gap-2'>
                                 <img src={Django} alt="Django Icon" className="w-10 h-10" />
                                 <span>Django</span>

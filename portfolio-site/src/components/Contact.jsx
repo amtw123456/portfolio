@@ -78,7 +78,7 @@ function Contact() {
                     animate={{ opacity: 1 }}
                     transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
                 >
-                    <div className='flex flex-col w-[36rem] tm:pt-4 lg:pt-4 sm:pt-0 tm:w-full sm:w-full tm:mb-[20px] sm:mb-[20px]'>
+                    <div className='flex flex-col tm:pt-4 lg:pt-4 sm:pt-0 tm:w-full sm:w-full tm:mb-[20px] sm:mb-[20px]'>
                         <div className='flex flex-row'>
                             <p className='cursor-pointer'>You can contact me at&nbsp;</p>
                             <GmailCopy />
@@ -117,7 +117,7 @@ function Contact() {
                     </div>
                 </motion.section>
             ) : <>
-                <div className='flex flex-col w-[36rem] tm:pt-4 lg:pt-4 sm:pt-0 tm:w-full sm:w-full tm:mb-[20px] sm:mb-[20px] opacity-0'>
+                <div className='flex flex-col tm:pt-4 lg:pt-4 sm:pt-0 tm:w-full sm:w-full tm:mb-[20px] sm:mb-[20px] opacity-0'>
                     <div className='flex flex-row'>
                         <p className='cursor-pointer'>You can contact me at&nbsp;</p>
                         <GmailCopy />
