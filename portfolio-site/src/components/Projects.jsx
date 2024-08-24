@@ -33,7 +33,7 @@ const Projects = (data) => {
         <section ref={ref} id="projects-section" className="border border-white md:w-full">
             <div className="flex flex-row justify-end items-center mb-24 mt-16">
                 <hr className="mt-6 border-t-1 border-purple-600 h-2 w-72" />
-                <div className="font-mono ml-4 font-bold text-5xl text-purple-600">Project</div>
+                <div className="font-mono ml-4 font-bold text-5xl text-purple-600">Projects</div>
             </div>
 
             {isVisible ? (
