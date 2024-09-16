@@ -8,9 +8,6 @@ import useOnScreen from '../hooks/useScreenView'; // Adjust import path as neces
 import { AppContext } from '../providers/AppStateProvider';
 
 import ProjectSampleImage from '../assets/project_images/Test.JPG';
-
-import JavaScript from '../assets/stack_image_icons/javascript.png';
-
 import Carousel from '../components/Carousel';
 
 const Projects = (data) => {
@@ -47,8 +44,6 @@ const Projects = (data) => {
                     <div className="flex flex-wrap">
                         {
                             data.project.projects.map((project, i) => {
-                                // Generate a unique ID for the carousel
-                                // const carouselId = `carousel-${uuidv4()}`;
 
                                 return (
                                     <div className='sm:w-1/2 rounded-lg w-full' key={i}>
@@ -91,9 +86,7 @@ const Projects = (data) => {
                                     </div>
                                 );
                             })
-
                         }
-
                     </div>
                 </motion.section>
             ) :
