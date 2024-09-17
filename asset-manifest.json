@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c1803616.css",
-    "main.js": "/portfolio/static/js/main.c0635d14.js",
+    "main.js": "/portfolio/static/js/main.3961617e.js",
     "static/media/Dev_Photo.jpeg": "/portfolio/static/media/Dev_Photo.b7c9cdf91439d6b34bf6.jpeg",
     "static/media/LDApage10.JPG": "/portfolio/static/media/LDApage10.3c1571f65b5f2ff79811.JPG",
     "static/media/LDApage7.JPG": "/portfolio/static/media/LDApage7.21ac401bc4d8a83ed925.JPG",
@@ -14,9 +14,9 @@
     "static/media/LDApage9.JPG": "/portfolio/static/media/LDApage9.dc929ca617555f6e095d.JPG",
     "static/media/LDApage2.JPG": "/portfolio/static/media/LDApage2.572c277f3864f9f94a62.JPG",
     "static/media/C.png": "/portfolio/static/media/C.1d585e3bef71665aff7b.png",
+    "static/media/Dolor-Resume.pdf": "/portfolio/static/media/Dolor-Resume.5e8d52742a19cb65a38d.pdf",
     "static/media/LDApage11.JPG": "/portfolio/static/media/LDApage11.e725357a257e42a9a065.JPG",
     "static/media/firebase.png": "/portfolio/static/media/firebase.5aa7cf22cd45ec6bbec2.png",
-    "static/media/Dolor-Resume.pdf": "/portfolio/static/media/Dolor-Resume.0db455a770a561a951f8.pdf",
     "static/media/C++.png": "/portfolio/static/media/C++.34777258570244e27222.png",
     "static/media/selenium.png": "/portfolio/static/media/selenium.8acd00a91ebc15e2633e.png",
     "static/media/gensim.png": "/portfolio/static/media/gensim.61a393f403ca30f10b05.png",
@@ -42,10 +42,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
     "main.c1803616.css.map": "/portfolio/static/css/main.c1803616.css.map",
-    "main.c0635d14.js.map": "/portfolio/static/js/main.c0635d14.js.map"
+    "main.3961617e.js.map": "/portfolio/static/js/main.3961617e.js.map"
   },
   "entrypoints": [
     "static/css/main.c1803616.css",
-    "static/js/main.c0635d14.js"
+    "static/js/main.3961617e.js"
   ]
 }
