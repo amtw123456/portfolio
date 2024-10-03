@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c1803616.css",
-    "main.js": "/portfolio/static/js/main.773356c8.js",
+    "main.css": "/portfolio/static/css/main.41cd7532.css",
+    "main.js": "/portfolio/static/js/main.a2ac90b5.js",
     "static/media/Dev_Photo.jpeg": "/portfolio/static/media/Dev_Photo.b7c9cdf91439d6b34bf6.jpeg",
     "static/media/LDApage10.JPG": "/portfolio/static/media/LDApage10.3c1571f65b5f2ff79811.JPG",
     "static/media/LDApage7.JPG": "/portfolio/static/media/LDApage7.21ac401bc4d8a83ed925.JPG",
@@ -14,21 +14,21 @@
     "static/media/LDApage9.JPG": "/portfolio/static/media/LDApage9.dc929ca617555f6e095d.JPG",
     "static/media/LDApage2.JPG": "/portfolio/static/media/LDApage2.572c277f3864f9f94a62.JPG",
     "static/media/C.png": "/portfolio/static/media/C.1d585e3bef71665aff7b.png",
+    "static/media/TrackItPage2.JPG": "/portfolio/static/media/TrackItPage2.7105fe5f89162de66aa2.JPG",
     "static/media/LDApage11.JPG": "/portfolio/static/media/LDApage11.e725357a257e42a9a065.JPG",
     "static/media/firebase.png": "/portfolio/static/media/firebase.5aa7cf22cd45ec6bbec2.png",
+    "static/media/TrackItPage1.JPG": "/portfolio/static/media/TrackItPage1.1e532c942cead9a0882e.JPG",
     "static/media/C++.png": "/portfolio/static/media/C++.34777258570244e27222.png",
-    "static/media/TrackItPage2.JPG": "/portfolio/static/media/TrackItPage2.f2d03bf9e40ce821855e.JPG",
     "static/media/selenium.png": "/portfolio/static/media/selenium.8acd00a91ebc15e2633e.png",
     "static/media/gensim.png": "/portfolio/static/media/gensim.61a393f403ca30f10b05.png",
     "static/media/opencv.png": "/portfolio/static/media/opencv.93ec810d647dc944c38c.png",
     "static/media/Dolor-Resume.pdf": "/portfolio/static/media/Dolor-Resume.a600d28e78bab0ec18f5.pdf",
-    "static/media/TrackItPage1.JPG": "/portfolio/static/media/TrackItPage1.397707e2247c0c54bed9.JPG",
     "static/media/UploadPage.JPG": "/portfolio/static/media/UploadPage.355a37f29759855e8bd4.JPG",
     "static/media/scikitlearn.png": "/portfolio/static/media/scikitlearn.5192df550f56dd1a80c8.png",
     "static/media/d3.png": "/portfolio/static/media/d3.ae6ff41639ea0bb49108.png",
+    "static/media/TrackItPage4.JPG": "/portfolio/static/media/TrackItPage4.f144ac40b7a224593510.JPG",
     "static/media/interpreter1.png": "/portfolio/static/media/interpreter1.21b3bb854ca2ba6c4029.png",
-    "static/media/TrackItPage4.JPG": "/portfolio/static/media/TrackItPage4.9ec379d78e0784e2048e.JPG",
-    "static/media/TrackItPage3.JPG": "/portfolio/static/media/TrackItPage3.cbbb66e70fc1e15865b4.JPG",
+    "static/media/TrackItPage3.JPG": "/portfolio/static/media/TrackItPage3.f546e9b5bc11ac7dd67d.JPG",
     "static/media/Test.JPG": "/portfolio/static/media/Test.83ba4457d62ee8f747b6.JPG",
     "static/media/nextjs.png": "/portfolio/static/media/nextjs.ab8293c95faf26dc5e3e.png",
     "static/media/python.png": "/portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
@@ -45,11 +45,11 @@
     "static/media/typescript.png": "/portfolio/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
-    "main.c1803616.css.map": "/portfolio/static/css/main.c1803616.css.map",
-    "main.773356c8.js.map": "/portfolio/static/js/main.773356c8.js.map"
+    "main.41cd7532.css.map": "/portfolio/static/css/main.41cd7532.css.map",
+    "main.a2ac90b5.js.map": "/portfolio/static/js/main.a2ac90b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1803616.css",
-    "static/js/main.773356c8.js"
+    "static/css/main.41cd7532.css",
+    "static/js/main.a2ac90b5.js"
   ]
 }
