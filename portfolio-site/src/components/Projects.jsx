@@ -119,7 +119,6 @@ const Projects = (data) => {
                                         ) : (
                                             <div className="flex flex-wrap pl-12 mb-4">
                                                 <Carousel project={project} ProjectSampleImage={ProjectSampleImage} />
-
                                                 <div className="flex flex-col">
                                                     <span className="font-medium font-serif text-3xl mt-2">
                                                         {project.name}
