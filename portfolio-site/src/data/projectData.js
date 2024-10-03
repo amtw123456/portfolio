@@ -62,9 +62,14 @@ const data = {
         },
         {
             name: 'Financial Tracker',
-            images: [require('../assets/project_images/Test.JPG')],
-            about: 'The financial tracker is a web application designed to help users manage their finances, built with Next.js and Tailwind for the frontend, and Laravel for the backend. Next.js powers the user interface with its fast, SEO-friendly framework, while Tailwind provides a responsive and visually appealing design through its utility-first CSS approach. On the backend, Laravel handles the server-side logic, including data management, authentication, and API creation. The application likely features a dashboard for financial overviews, transaction logging and categorization, and customizable settings. By integrating these technologies, the financial tracker offers a powerful, scalable, and user-friendly solution for effective financial management.',
-            tech: ['Next.js', 'D3.js', 'Tailwind', 'Spring Boot'],
+            images: [
+                require('../assets/project_images/TrackIt-images/TrackItPage1.JPG'),
+                require('../assets/project_images/TrackIt-images/TrackItPage2.JPG'),
+                require('../assets/project_images/TrackIt-images/TrackItPage3.JPG'),
+                require('../assets/project_images/TrackIt-images/TrackItPage4.JPG'),
+            ],
+            about: "TrackIt: An online web application that allows users to track and visualize their overall expenses. The application is built using Next.js and Tailwind CSS for the frontend, with D3.js for visualization components. The backend is developed using Java Spring Boot, providing RESTful API services along with JWT authentication and authorization. PostgreSQL is used as the database to store user data and expenses.",
+            tech: ['Next.js', 'D3.js', 'Tailwind', 'Spring Boot', 'PostgreSQL'],
 
             links: {
                 GitHub: 'https://github.com/candypay',
