@@ -10,7 +10,7 @@ const ProjectCarousel = ({ project }) => {
 
     return (
         <div>
-            <div id={carouselId} className="carousel slide" data-bs-ride="carousel">
+            <div id={carouselId} className="carousel slide carousel-dark" data-bs-ride="carousel">
                 <ol className="carousel-indicators">
                     {project.images.map((_, index) => (
                         <li
